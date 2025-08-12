@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Books>
+  <Book ISBN="978-3-16-148410-0">
+    <Title>Война и мир</Title>
+    <Author>Лев Толстой</Author>
+    <Genre>Роман</Genre>
+    <YearPublished>1869</YearPublished>
+  </Book>
+  <Book ISBN="978-0-452-28423-4">
+    <Title>1984</Title>
+    <Author>Джордж Оруэлл</Author>
+    <Genre>Антиутопия</Genre>
+    <YearPublished>1949</YearPublished>
+  </Book>
+  <Book ISBN="978-0-446-61120-9">
+    <Title>Унесенные ветром</Title>
+    <Author>Маргарет Митчелл</Author>
+    <Genre>Исторический роман</Genre>
+    <YearPublished>1936</YearPublished>
+  </Book>
+  <Book ISBN="978-0-330-25864-7">
+    <Title>Автостопом по галактике</Title>
+    <Author>Дуглас Адамс</Author>
+    <Genre>Фантастика</Genre>
+    <YearPublished>1979</YearPublished>
+  </Book>
+  <Book ISBN="978-0-00-713680-8">
+    <Title>Девушка с острова</Title>
+    <Author>Агата Кристи</Author>
+    <Genre>Детектив</Genre>
+    <YearPublished>1939</YearPublished>
+  </Book>
+  <Book ISBN="978-0-553-38016-3">
+    <Title>Краткая история времени</Title>
+    <Author>Стивен Хокинг</Author>
+    <Genre>Научная литература</Genre>
+    <YearPublished>1988</YearPublished>
+  </Book>
+</Books>
