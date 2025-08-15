@@ -5,7 +5,6 @@
         static void Main(string[] args)
         {
             var books = Library.LoadBooksFromXml(@"../../../../Source/asd.xml");
-
             foreach (var book in books)
             {
                 Console.WriteLine($"" +
@@ -17,6 +16,10 @@
             }
 
             Library.SaveBooksToXml(books, @"../../../../Source/output.xml");
+
+            Book book1 = new Book("fasdf", "ertertert", "genree", 7012, "1212-12123145-53");
+            Library.AddBookToXml(book1, @"../../../../Source/output.xml");
+
         }
     }
 }
