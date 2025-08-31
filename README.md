@@ -5,3 +5,8 @@
   - Find books by genre
   - By author
   - By year published
+  - By ISBN
+
+[!NOTE]
+This app has a CLI which doesn't implement all of the program functionality
+You can see the rest of the functions in Library.cs, all of those are [tested](./Tests/LibraryTests.cs)
