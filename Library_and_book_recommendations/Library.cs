@@ -1,10 +1,4 @@
-﻿using Library_and_book_recommendations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
+﻿using System.Xml.Linq;
 
 namespace Library_and_book_recommendations
 {
@@ -41,11 +35,11 @@ namespace Library_and_book_recommendations
                 foreach (XElement elem in root.Elements("Book"))
                 {
                     books.Add(new Book(
-                        elem.Element("Title")?.Value,
-                        elem.Element("Author")?.Value,
-                        elem.Element("Genre")?.Value,
-                        Int32.Parse(elem.Element("YearPublished")?.Value),
-                        elem.Attribute("ISBN")?.Value));
+                        elem.Element("Title")?.Value ?? "",
+                        elem.Element("Author")?.Value ?? "",
+                        elem.Element("Genre")?.Value ?? "",
+                        Int32.Parse(elem.Element("YearPublished")?.Value ?? ""),
+                        elem.Attribute("ISBN")?.Value ?? ""));
                 }
             }
 
